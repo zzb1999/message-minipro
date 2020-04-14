@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<van-button type="warning">警告按钮</van-button>
 <view class="container" id="write">
   <form bindsubmit="saveGbook">
   <textarea value="{{content}}" name="content" placeholder="请输入留言内容" class="content">
