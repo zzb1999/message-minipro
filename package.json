@@ -1,0 +1,23 @@
+{
+  "name": "message-minipro",
+  "version": "1.0.0",
+  "description": "学习小程序，留言板",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzb1999/message-minipro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzb1999/message-minipro/issues"
+  },
+  "homepage": "https://github.com/zzb1999/message-minipro#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.2.1"
+  }
+}
