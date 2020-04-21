@@ -1,0 +1,3 @@
+<view>
+    <video style="width:100%" id="myVideo" src="{{res.video.play_url.m3u8.PlayURL}}"></video>
+</view>

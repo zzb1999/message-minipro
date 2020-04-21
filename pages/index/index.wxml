@@ -1,4 +1,24 @@
 <!--index.wxml-->
 <view class="container">
-  <van-button type="primary">主要按钮</van-button>
+  <swiper indicator-dots="true" autoplay="true" style="height:100px;">
+    <swiper-item item-id="1">
+      <image src="/resources/images/a.jpg" mode="widthFix" style="width:100%;" />
+    </swiper-item>
+    <swiper-item item-id="2">
+      <image src="/resources/images/b.jpg" mode="widthFix" style="width:100%;" />
+    </swiper-item>
+  </swiper>
+  <view class="page_title">
+    <text>/ PHP 学习路径 /</text>
+      
+  </view>  
+  <block wx:for="{{courses}}" wx:key="id" wx:for-item="course">
+    <view class="course flex">
+      <navigator url="/pages/course/course?course_id={{course.id}}" class="flex">
+        <image src="{{course.image_link}}" mode="widthFix" />
+        <text class="title">{{course.title}}</text>
+      </navigator>
+    </view>
+  </block>
+    
 </view>

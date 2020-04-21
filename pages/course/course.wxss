@@ -1,0 +1,8 @@
+/* pages/course/course.wxss */
+
+.course{
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+
+.course van-icon{margin-right:10rpx;}

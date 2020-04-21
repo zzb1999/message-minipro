@@ -1,0 +1,10 @@
+<!--pages/learn/learn.wxml-->
+<view class="container">
+    <view class="flex">
+        <text class="page_title">{{resource.title}}</text>
+        <text class="baseinfo">{{resource.desc}}</text>
+        <text class="baseinfo" style="text-align:right;">{{resource.created_at}}</text>
+    </view>
+    <course-video wx:if="{{resource.video}}" res="{{resource}}"></course-video>
+    <course-doc wx:if="{{resource.doc}}" res="{{resource}}"></course-doc>
+</view>

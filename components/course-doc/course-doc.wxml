@@ -1,0 +1,5 @@
+<view>
+    <!--<rich-text nodes="{{res.doc.content}}">
+    </rich-text>-->
+    <parser html="{{res.doc.content}}" />
+</view>

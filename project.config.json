@@ -25,7 +25,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.10.3",
+	"libVersion": "2.10.4",
 	"appid": "wx3e1c541bdb92798b",
 	"projectname": "message-minipro",
 	"debugOptions": {
@@ -43,13 +43,36 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/course/course",
+					"pathName": "pages/course/course",
+					"query": "course_id=1",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/learn/learn",
+					"pathName": "pages/learn/learn",
+					"query": "course_id=1&resource_id=6",
+					"scene": null
+				}
+			]
 		}
 	}
 }

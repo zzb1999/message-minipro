@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "course-video": "/components/course-video/course-video",
+    "course-doc": "/components/course-doc/course-doc"
+  }
+
+}

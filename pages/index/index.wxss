@@ -1,0 +1,9 @@
+.course{
+    margin-top: 20px;
+}
+
+
+.course .title{
+    text-align: center;
+    color: #333;
+}
